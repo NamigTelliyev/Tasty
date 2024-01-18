@@ -1,0 +1,642 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404044;
+}
+header .headerContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerContainer #tasty {
+  padding: 5px 15px;
+  font-size: 22px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+header .headerContainer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .headerContainer nav ul li {
+  list-style: none;
+}
+header .headerContainer nav ul li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+}
+header .headerContainer nav ul li a:hover {
+  transition: 0.4s;
+  color: orange;
+  font-weight: 600;
+}
+header .headerContainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headerContainer nav {
+    display: none;
+  }
+  header .headerContainer .dropdown {
+    display: block;
+  }
+}
+main #homeSecOne {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/bg_2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecOne .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #homeSecOne .secContent .containerOne {
+  width: 90%;
+}
+main #homeSecOne .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+main #homeSecOne .secContent .containerOne .content h2 {
+  color: white;
+  font-size: 70px;
+  width: 120%;
+  font-family: "Indie Flower", cursive;
+}
+main #homeSecOne .secContent .containerOne .content button {
+  width: 170px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  transition: 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+main #homeSecOne .secContent .containerOne .content button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
+main #homeSecTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecTwo .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #homeSecTwo .secContent .containerOne {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecTwo .secContent .containerOne .contentOne {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+main #homeSecTwo .secContent .containerOne .contentOne img {
+  width: 100%;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo img {
+  width: 100%;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo h3 {
+  color: #e4e4e4;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px black;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo h2 {
+  color: #404044;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo p {
+  color: #8B8B92;
+}
+main #homeSecTwo .secContent .containerOne .contentTwo p {
+  color: #8B8B92;
+}
+main #homesecThree {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homesecThree .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #homesecThree .secContent .containerOne {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homesecThree .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main #homesecThree .secContent .containerOne .content h3 {
+  color: #e4e4e4;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px black;
+}
+main #homesecThree .secContent .containerOne .content h2 {
+  width: 120%;
+  font-size: 35px;
+  color: #404044;
+}
+main #homeSecFour {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFour .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #homeSecFour .secContent .containerOne {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFour .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main #homeSecFour .secContent .containerOne .content h3 {
+  color: #e4e4e4;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px black;
+}
+main #homeSecFour .secContent .containerOne .content h2 {
+  font-size: 35px;
+  color: #404044;
+}
+main #homeSecFour .secContent .containerTwo {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFour .secContent .containerTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+main #homeSecFour .secContent .containerTwo .content img {
+  width: 120px;
+  border-radius: 50%;
+}
+main #homeSecFour .secContent .containerTwo .content .icons {
+  color: orange;
+  font-size: 12px;
+}
+main #homeSecFour .secContent .containerTwo .content p {
+  color: #8B8B92;
+  width: 80%;
+}
+main #homeSecFour .secContent .containerTwo .content h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #404044;
+}
+main #homeSecFour .secContent .containerTwo .content h3 {
+  color: #c5c5c5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 1px black;
+}
+main #homeSecFive {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFive .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #homeSecFive .secContent .containerOne {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFive .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+main #homeSecFive .secContent .containerOne .content h3 {
+  color: #e4e4e4;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 1px black;
+}
+main #homeSecFive .secContent .containerOne .content h2 {
+  font-size: 35px;
+  color: #404044;
+}
+main #homeSecFive .secContent .containerTwo {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #homeSecFive .secContent .containerTwo .content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+}
+main #homeSecFive .secContent .containerTwo .content img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+}
+main #homeSecFive .secContent .containerTwo .content h2 {
+  width: 80%;
+  font-weight: 600;
+  font-size: 20px;
+  color: #404044;
+}
+main #homeSecFive .secContent .containerTwo .content h3 {
+  color: #c5c5c5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 1px black;
+}
+main #homeSecFive .secContent .containerTwo .content a {
+  text-decoration: none;
+  color: #404044;
+  font-weight: 300;
+}
+
+footer {
+  padding: 30px 0;
+  width: 100%;
+  background-color: #404044;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .content p {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404044;
+}
+header .headerContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerContainer #tasty {
+  padding: 5px 15px;
+  font-size: 22px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+header .headerContainer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .headerContainer nav ul li {
+  list-style: none;
+}
+header .headerContainer nav ul li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+}
+header .headerContainer nav ul li a:hover {
+  transition: 0.4s;
+  color: orange;
+  font-weight: 600;
+}
+header .headerContainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headerContainer nav {
+    display: none;
+  }
+  header .headerContainer .dropdown {
+    display: block;
+  }
+}
+main #addSecOne {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main #addSecOne .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #addSecOne .secContent .containerOne {
+  width: 90%;
+}
+main #addSecOne .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #addSecOne .secContent .containerOne .content form {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: blanchedalmond;
+}
+main #addSecOne .secContent .containerOne .content form h2 {
+  font-weight: 600;
+}
+main #addSecOne .secContent .containerOne .content form input {
+  width: 350px;
+  height: 45px;
+  padding-left: 5px;
+  outline: none;
+  border: 2px solid black;
+}
+main #addSecOne .secContent .containerOne .content form button {
+  font-weight: 600;
+  width: 170px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+}
+main #addSecOne .secContent .containerOne .content form button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition: 0.4s;
+}
+main #addSecOne .secContent .search {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main #addSecOne .secContent .search .content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #addSecOne .secContent .search .content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #addSecOne .secContent .search .content form input {
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border: 2px solid black;
+  padding-left: 5px;
+}
+main #addSecOne .secContent .search .content form button {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.4s;
+  color: black;
+  background-color: orangered;
+  font-weight: 700;
+  border: 2px solid black;
+}
+main #addSecOne .secContent .search .content form button:hover {
+  transition: 0.4s;
+  background-color: green;
+  font-weight: 700;
+}
+
+footer {
+  padding: 30px 0;
+  width: 100%;
+  background-color: #404044;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .content p {
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404044;
+}
+header .headerContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headerContainer #tasty {
+  padding: 5px 15px;
+  font-size: 22px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+header .headerContainer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .headerContainer nav ul li {
+  list-style: none;
+}
+header .headerContainer nav ul li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+}
+header .headerContainer nav ul li a:hover {
+  transition: 0.4s;
+  color: orange;
+  font-weight: 600;
+}
+header .headerContainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headerContainer nav {
+    display: none;
+  }
+  header .headerContainer .dropdown {
+    display: block;
+  }
+}
+main #basketSecOne {
+  min-height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #basketSecOne .secContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #basketSecOne .secContent .containerOne {
+  width: 90%;
+}
+main #basketSecOne .secContent .containerOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  padding: 30px 0;
+  width: 100%;
+  background-color: #404044;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .content p {
+  color: white;
+}
